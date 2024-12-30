@@ -1,10 +1,26 @@
+https://youtu.be/hrTQipWp6co?si=6MCHuGIZGg-fzKLp
+supersimpledev -- simon doe
 create folder(ex: gitlearn)
 move to the folder in the terminal
-git init -- to initialize a new git repository
+git init --> to initialize a new git repository
+git add folder_name
 git add . 	--(allversions)
     (or)	-- to select which files to track the versions
 git add file_name --(only the file file_name)
-
-git status -- to see status 
 git commit -m "write message here" -- to save the changes made in file to git
+git status -- to see status 
+git log  -- to see the version history
+IN git '.' is used for the current folder name
+git checkout folder_name or file_name or . --> to discard changes from working area
+
+git add file_name --> to add changes to the staged area
+--> Files in which changes are made are added to working area
+--> up on adding them changes are shown in staged area in the vs code
+
+
+git add.
+git commit -m "write message here" -- to save the changes made in file to git
+(or)
+(git commit -m "message" --amend)  --> this is for to delete the last commit and add the present changes to git
+git status -- to see status 
 git log  -- to see the version history
