@@ -1,0 +1,10 @@
+create folder(ex: gitlearn)
+move to the folder in the terminal
+git init -- to initialize a new git repository
+git add . 	--(allversions)
+    (or)	-- to select which files to track the versions
+git add file_name --(only the file file_name)
+
+git status -- to see status 
+git commit -m "write message here" -- to save the changes made in file to git
+git log  -- to see the version history
