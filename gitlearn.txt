@@ -1,5 +1,6 @@
 https://youtu.be/hrTQipWp6co?si=6MCHuGIZGg-fzKLp
 supersimpledev -- simon doe
+git repository --> a folder which is tracked by git
 create folder(ex: gitlearn)
 move to the folder in the terminal
 git init --> to initialize a new git repository
@@ -11,21 +12,21 @@ git commit -m "write message here" -- to save the changes made in file to git
 git status -- to see status 
 git log  -- to see the version history
 IN git '.' is used for the current folder name
-git checkout folder_name or file_name or . --> to discard changes from working area to previous commit
-git checkout commit hash -->to move to that version id
-git checkput branch_name -->to move to the branch with name branch_name
-
+git checkout folder_name or file_name or . --> to discard changes from working area to previous commit(view)
+git checkout commit hash -->to move to that version id(view)
+git checkput branch_name -->to move to the branch with name branch_name (view)
+git checkput commit hash file_name --> only changes in file_name are returned to version with given hash
 git add file_name --> to add changes to the staged area
 --> Files in which changes are made are added to working area
 --> up on adding them changes are shown in staged area in the vs code
-
+if we need to restore then after checking out, we need to commit that
 
 git add.
 git commit -m "write message here" -- to save the changes made in file to git
 (or)
 (git commit -m "message" --amend)  --> this is for to delete the last commit and add the present changes to git
 git status -- to see status 
-git log  -- to see the version history
+git log  -- to see the version history 
 
 
 
