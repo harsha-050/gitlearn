@@ -11,7 +11,9 @@ git commit -m "write message here" -- to save the changes made in file to git
 git status -- to see status 
 git log  -- to see the version history
 IN git '.' is used for the current folder name
-git checkout folder_name or file_name or . --> to discard changes from working area
+git checkout folder_name or file_name or . --> to discard changes from working area to previous commit
+git checkout commit hash -->to move to that version id
+git checkput branch_name -->to move to the branch with name branch_name
 
 git add file_name --> to add changes to the staged area
 --> Files in which changes are made are added to working area
@@ -24,3 +26,9 @@ git commit -m "write message here" -- to save the changes made in file to git
 (git commit -m "message" --amend)  --> this is for to delete the last commit and add the present changes to git
 git status -- to see status 
 git log  -- to see the version history
+
+
+
+
+
+
