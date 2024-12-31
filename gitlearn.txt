@@ -1,5 +1,6 @@
 https://youtu.be/hrTQipWp6co?si=6MCHuGIZGg-fzKLp
 supersimpledev -- simon doe
+git hub alternatives -->gutbucket or gitlab
 git repository --> a folder which is tracked by git
 create folder(ex: gitlearn)
 move to the folder in the terminal
@@ -20,7 +21,13 @@ git add file_name --> to add changes to the staged area
 --> Files in which changes are made are added to working area
 --> up on adding them changes are shown in staged area in the vs code
 if we need to restore then after checking out, we need to commit that
-
+create .gitignore file in the same folder and in the file write the name of files that need to be ignored to staged area
+To link GitHub repo to a local folder
+first create new repo in the new repositories
+next in powershell go to folder which needed to be tracked and use git remote origin link_of_repo-->here origin is the name of the remote_nickname to the repository
+to check the linkage git remote -v --> v means verbose -->meaning more details
+push means to upload to GitHub and pull means to download from GitHub
+next use git push origin branch_name--> here origin is the name of the remote_nickname to the repository
 git add.
 git commit -m "write message here" -- to save the changes made in file to git
 (or)
