@@ -25,9 +25,13 @@ create .gitignore file in the same folder and in the file write the name of file
 To link GitHub repo to a local folder
 first create new repo in the new repositories
 next in powershell go to folder which needed to be tracked and use git remote origin link_of_repo-->here origin is the name of the remote_nickname to the repository
+TO remove the linkage of remote repository to local repo use git remote remove origin
 to check the linkage git remote -v --> v means verbose -->meaning more details
 push means to upload to GitHub and pull means to download from GitHub
 next use git push origin branch_name--> here origin is the name of the remote_nickname to the repository
+**git commit is to store the version history in the local git and git push origin master is to upload to the remote repository to the github**
+
+
 git add.
 git commit -m "write message here" -- to save the changes made in file to git
 (or)
