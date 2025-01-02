@@ -2,21 +2,28 @@ https://youtu.be/hrTQipWp6co?si=6MCHuGIZGg-fzKLp
 supersimpledev -- simon doe
 git hub alternatives -->gutbucket or gitlab
 git repository --> a folder which is tracked by git
+
+
 create folder(ex: gitlearn)
-move to the folder in the terminal
-git init --> to initialize a new git repository
+move to the folder in the terminal								(MAKING A FOLDER INTO A GIT REPOSITARY)
+git init --> to track the changes in the folder using git -- now this folder will become a new git repo-- that's it our version history can be tracked now with git
+
 git add folder_name
-git add . 	--(allversions)
+git add . 	--(allversions)									(SELECTING FILES TO STAGING AREA)
     (or)	-- to select which files to track the versions
 git add file_name --(only the file file_name)
-git commit -m "write message here" -- to save the changes made in file to git
-git status -- to see status 
-git log  -- to see the version history
+
+git commit -m "write message here" -- to save the changes made in file to git			(SAVING VERSION HISTORY)
+
+git status -- to see status 									(CHECKING STATUS OF COMMITS OF FILES)
+
+git log  -- to see the version history								(TO VIEW THE VERSION HISTORY)					
+
 IN git '.' is used for the current folder name
 git checkout folder_name or file_name or . --> to discard changes from working area to previous commit(view)
 git checkout commit hash -->to move to that version id(view)
-git checkput branch_name -->to move to the branch with name branch_name (view)
-git checkput commit hash file_name --> only changes in file_name are returned to version with given hash
+git checkout branch_name -->to move to the branch with name branch_name (view)
+git checkout commit hash file_name --> only changes in file_name are returned to version with given hash
 git add file_name --> to add changes to the staged area
 --> Files in which changes are made are added to working area
 --> up on adding them changes are shown in staged area in the vs code
@@ -30,14 +37,28 @@ to check the linkage git remote -v --> v means verbose -->meaning more details
 push means to upload to GitHub and pull means to download from GitHub
 next use git push origin branch_name--> here origin is the name of the remote_nickname to the repository
 **git commit is to store the version history in the local git and git push origin master is to upload to the remote repository to the github**
+to create a shortcut to git push origin master we need to use --> git push origin master --setup -upstream --> next time we can use git push directly , which will automatically reflects git push origin master
+To sync changes to local repo from GitHub
+	remote repos state in local computer wont update automatically.
+	to update the state of remote repos, we need to do -- git fetch -- the remote repos state will be updated
+	if the remote repo has any updates, to sync the local repo we need to use --git pull origin master-- now the local and remote repos(i.e in github) are in same state or in sync
+	
 
+
+
+
+**git push only pushes commits , the changes first need to the staged area from working area(git add .) 
+git commit -m "message"
+git push origin master
+**
 
 git add.
 git commit -m "write message here" -- to save the changes made in file to git
 (or)
-(git commit -m "message" --amend)  --> this is for to delete the last commit and add the present changes to git
-git status -- to see status 
-git log  -- to see the version history 
+(git commit -m "message" --amend)  --> this is for to delete the last commit and add the present changes to git or inother words to make a new commit and deleting previous one
+git push origin master
+git status --> to see status 
+git log --all --graph --> to see the version history 
 
 
 
